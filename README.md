@@ -1,20 +1,34 @@
-# Nexo Digital — Guía: desarrollo de una interfaz web responsiva
+# Nexo Digital — Desarrollo de una interfaz web responsiva
 
-Proyecto académico de página web adaptativa. El documento de la actividad, aunque se adjuntó como «Guía 4», muestra internamente el título «Guía 3».
+**Estudiante:** Leonardo Martínez Castañeda
 
-## Uso
-Abrir `index.html` en cualquier navegador moderno. No requiere conexión a internet, instalación ni servidor.
+## Descripción del proyecto
+Nexo Digital es una página web desarrollada como parte de una actividad académica de Ingeniería Web. Su objetivo es presentar servicios digitales mediante una interfaz clara, organizada y adaptable a diferentes tamaños de pantalla.
 
-## Estructura
-- `index.html`: HTML5 semántico.
-- `css/estilos.css`: estilos, CSS Grid, Flexbox y media queries.
-- `js/app.js`: menú móvil y confirmación del formulario de demostración.
-- `img/ilustracion.svg`: ilustración propia.
-- `evidencias/`: capturas de la interfaz en escritorio, tableta y móvil.
-- `Documentacion_Guia_Interfaz_Responsiva.pdf`: informe del proyecto.
+## Tecnologías utilizadas
+- HTML5: estructura semántica del contenido.
+- CSS3: estilos, Flexbox, CSS Grid y Media Queries.
+- JavaScript: menú adaptable y validación del formulario de demostración.
 
-## Importante
-El formulario solo simula el envío; no existe backend ni se transmiten datos. El nombre «Nexo Digital» es ficticio y se utiliza solo con fines educativos.
+## Estructura del proyecto
+- `index.html`: página principal.
+- `css/estilos.css`: estilos de la interfaz.
+- `js/app.js`: funcionalidades interactivas.
+- `img/ilustracion.svg`: ilustración utilizada en la página.
+- Informe académico en PDF: documentación y evidencias del desarrollo.
 
-## Para entregar
-Subir todos los archivos al repositorio Git, agregar en la entrega el enlace a dicho repositorio y adjuntar por separado el video explicativo solicitado. El video debe grabarse mostrando navegación, tamaños y formulario.
+## Página web publicada
+https://leonardomarcas-dev.github.io/Guia4-NexoDigital/
+
+## Funcionamiento
+La interfaz puede visualizarse desde un computador, una tableta o un teléfono móvil. Incluye navegación entre secciones, tarjetas de servicios y un formulario interactivo.
+
+El formulario es una demostración académica: muestra una confirmación en pantalla, pero no envía información a un servidor.
+
+## Pruebas realizadas
+Se realizaron pruebas de visualización en computador, tableta y teléfono móvil. También se comprobó la confirmación del formulario. Las capturas están incorporadas en el informe académico.
+
+## Autor
+Leonardo Martínez Castañeda
+
+Proyecto académico desarrollado con fines educativos.
