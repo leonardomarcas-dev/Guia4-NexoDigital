@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nexo Digital: soluciones de diseño web y tecnología para emprendedores.">
+  <title>Nexo Digital | Soluciones web</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <a class="salto" href="#contenido">Saltar al contenido</a>
+  <header class="encabezado" id="inicio">
+    <div class="contenedor barra">
+      <a href="#inicio" class="marca" aria-label="Nexo Digital, ir al inicio"><span class="marca-icono">N</span> Nexo<span>Digital</span></a>
+      <button class="menu-boton" type="button" aria-controls="navegacion" aria-expanded="false" aria-label="Abrir menú de navegación"><span></span><span></span><span></span></button>
+      <nav id="navegacion" class="navegacion" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a><a href="#servicios">Servicios</a><a href="#nosotros">Nosotros</a><a href="#contacto" class="nav-cta">Contáctanos</a>
+      </nav>
+    </div>
+  </header>
+  <main id="contenido">
+    <section class="hero" aria-labelledby="titulo-principal">
+      <div class="contenedor hero-grid">
+        <div class="hero-texto"><span class="etiqueta">DISEÑO · TECNOLOGÍA · INNOVACIÓN</span><h1 id="titulo-principal">Tu próximo gran proyecto <em>comienza aquí.</em></h1><p>Diseñamos experiencias digitales modernas, sencillas y adaptadas a cualquier pantalla para hacer crecer tus ideas.</p><div class="hero-acciones"><a class="boton boton-principal" href="#servicios">Explorar servicios <span aria-hidden="true">→</span></a><a class="boton boton-secundario" href="#contacto">Hablemos de tu idea</a></div><div class="hero-dato"><strong>100% responsivo</strong><span>Una experiencia cómoda en todos tus dispositivos</span></div></div>
+        <div class="hero-imagen"><img src="img/ilustracion.svg" alt="Ilustración de una interfaz digital adaptada a diferentes dispositivos" width="630" height="490"></div>
+      </div>
+    </section>
+    <section class="seccion servicios" id="servicios" aria-labelledby="servicios-titulo"><div class="contenedor"><div class="seccion-cabecera"><span class="etiqueta">LO QUE HACEMOS</span><h2 id="servicios-titulo">Soluciones para cada necesidad</h2><p>Combinamos creatividad y tecnología para desarrollar proyectos funcionales.</p></div><div class="tarjetas">
+      <article class="tarjeta"><div class="tarjeta-icono" aria-hidden="true">⌘</div><h3>Diseño web</h3><p>Páginas atractivas, accesibles y listas para verse correctamente en cualquier dispositivo.</p><a href="#contacto">Solicitar información <span aria-hidden="true">→</span></a></article>
+      <article class="tarjeta"><div class="tarjeta-icono" aria-hidden="true">▣</div><h3>Tiendas virtuales</h3><p>Catálogos digitales claros y fáciles de recorrer para acercar tus productos a más clientes.</p><a href="#contacto">Solicitar información <span aria-hidden="true">→</span></a></article>
+      <article class="tarjeta"><div class="tarjeta-icono" aria-hidden="true">✦</div><h3>Asesoría digital</h3><p>Orientación para mejorar la presentación y experiencia de tus proyectos en internet.</p><a href="#contacto">Solicitar información <span aria-hidden="true">→</span></a></article>
+    </div></div></section>
+    <section class="seccion nosotros" id="nosotros" aria-labelledby="nosotros-titulo"><div class="contenedor nosotros-grid"><div><span class="etiqueta">NUESTRA VISIÓN</span><h2 id="nosotros-titulo">Tecnología que se adapta a ti</h2><p>En Nexo Digital creemos en interfaces sencillas, rápidas y fáciles de utilizar. Trabajamos con una estructura clara y un diseño que prioriza la experiencia de las personas.</p></div><div class="beneficios"><div><strong>01</strong><span>Diseño adaptable</span></div><div><strong>02</strong><span>Navegación intuitiva</span></div><div><strong>03</strong><span>Experiencias accesibles</span></div></div></div></section>
+    <section class="seccion contacto" id="contacto" aria-labelledby="contacto-titulo"><div class="contenedor contacto-grid"><div><span class="etiqueta">CONTACTO</span><h2 id="contacto-titulo">Cuéntanos tu idea</h2><p>Completa el formulario de demostración. Verás una confirmación en pantalla sin enviar información a un servidor.</p><div class="contacto-nota">✦ Este sitio es un proyecto académico de demostración.</div></div><form id="formulario-contacto" class="formulario"><label for="nombre">Nombre completo</label><input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required maxlength="80" autocomplete="name"><label for="correo">Correo electrónico</label><input id="correo" name="correo" type="email" placeholder="nombre@ejemplo.com" required autocomplete="email"><label for="servicio">Servicio de interés</label><select id="servicio" name="servicio" required><option value="">Selecciona una opción</option><option>Diseño web</option><option>Tienda virtual</option><option>Asesoría digital</option></select><label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" rows="4" placeholder="¿Qué proyecto tienes en mente?" required maxlength="600"></textarea><button type="submit" class="boton boton-principal">Enviar mensaje <span aria-hidden="true">→</span></button><p class="respuesta" id="respuesta-formulario" role="status" aria-live="polite"></p></form></div></section>
+  </main>
+  <footer class="pie"><div class="contenedor pie-contenido"><div><a href="#inicio" class="marca"><span class="marca-icono">N</span> Nexo<span>Digital</span></a><p>Proyecto académico · Diseño web responsivo</p></div><p>© <span id="anio">2026</span> Nexo Digital. Sitio de demostración.</p></div></footer>
+</body>
+</html>
